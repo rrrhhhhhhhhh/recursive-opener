@@ -115,6 +115,16 @@ span {
     background-color: #dde1e400;
 }
 
+.link-grey-invert {
+    background-color: #fff;
+    padding: .12em;
+}
+
+.link-grey-invert:hover {
+    transition: .25s;
+    background-color: #dde1e400;
+}
+
 .white {
   background-color: #FFFFFF;
 }
@@ -154,6 +164,23 @@ span {
     transition: .25s;
     background-color: #FFF79F;
 }
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.link-white {
+    padding: .12em;
+    /* background-color: #FFF; */
+}
+
+.link-white:hover {
+    transition: .25s;
+    background-color: #FFFFFF;
+}
+
+
+
 
 .purple {
     background-color: #DCB5CA;
@@ -405,4 +432,33 @@ a {
 
 figure {
   margin: 1em 0;
+}
+
+/* BOTTOM */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+
+section.bottom {
+  position: relative;
+  height: 50px;
+
+}
+
+.absolute {
+  position: absolute;
+  width: 50%;
+  bottom: 10px;
+}
+
+.push {
+  margin-left: calc(2vw + 20px);
+
 }
