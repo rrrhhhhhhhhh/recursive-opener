@@ -441,15 +441,17 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: white;
+  background-color: ;
   color: black;
   text-align: left;
 }
 
 section.bottom {
+  margin-left: calc(2vw + 20px);
   position: relative;
-  height: 50px;
-  padding-top: 4px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .absolute {
@@ -459,6 +461,6 @@ section.bottom {
 }
 
 .push {
-  margin-left: calc(2vw + 20px);
+  /* margin-left: calc(2vw + 20px); */
 
 }
