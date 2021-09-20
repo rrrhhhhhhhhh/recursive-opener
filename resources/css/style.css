@@ -10,6 +10,7 @@ body {
     font-size: calc(14px + (21 - 14) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: 0.08em;
     line-height: 1.3em;
+    background: #eaeef1;
 }
 
 html {
@@ -146,7 +147,7 @@ span {
 
 .link-yellow {
     padding: .12em;
-    background-color: #FFF;
+    /* background-color: #FFF; */
 }
 
 .link-yellow:hover {
