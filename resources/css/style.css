@@ -449,7 +449,7 @@ footer {
 section.bottom {
   position: relative;
   height: 50px;
-
+  padding-top: 4px;
 }
 
 .absolute {
